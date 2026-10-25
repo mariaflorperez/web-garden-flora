@@ -1,20 +1,19 @@
 {
-  "whatsapp": "5491100000000",
-  "whatsapp_visible": "+54 9 11 0000-0000",
-  "instagram": "gardenflora",
-  "email": "hola@gardenflora.com",
   "inicio": {
     "titulo": "Flores hechas con tiempo, a mano y a tu medida.",
     "bajada": "Soy Flor y esto es Garden Flora: ramos, composiciones y objetos florales para regalar, decorar o simplemente mirar.",
     "boton_principal": "Ver mis creaciones",
-    "boton_whatsapp": "Escribime por WhatsApp",
+    "boton_whatsapp": "Contactame por WhatsApp",
     "sellos": [
       "Cada pieza se arma sin molde",
       "Flores de estación, frescas y secas",
       "Encargos para casa, eventos y empresas"
-    ],
-    "foto": ""
+    ]
   },
+  "whatsapp": "5491100000000",
+  "whatsapp_visible": "+54 9 11 0000-0000",
+  "instagram": "gardenflora",
+  "email": "hola@gardenflora.com",
   "contacto": {
     "titulo": "Contacto",
     "intro": "Contame qué tenés en mente. Con una foto de referencia o una idea suelta alcanza para empezar."
