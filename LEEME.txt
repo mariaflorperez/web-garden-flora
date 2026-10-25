@@ -1,0 +1,2 @@
+Acá se guardan las fotos que subas desde Pages CMS (o a mano desde GitHub).
+Esta carpeta existe para que GitHub no la descarte por estar vacía. No borres este archivo.

@@ -1,0 +1,37 @@
+{
+  "titulo": "Mis creaciones",
+  "intro": "Ramos, composiciones y objetos florales. No vendo por catálogo: cada encargo se conversa y se arma para vos.",
+  "texto_consulta": "Consultar por esta pieza",
+  "piezas": [
+    {
+      "titulo": "Ramo de estación",
+      "descripcion": "Flores frescas del momento, atadas a mano con cinta y papel.",
+      "foto": ""
+    },
+    {
+      "titulo": "Ramo seco",
+      "descripcion": "Espigas, pastos y flores secas que duran meses y cambian de color con el tiempo.",
+      "foto": ""
+    },
+    {
+      "titulo": "Composición en caja",
+      "descripcion": "Flores y follaje armados en una base para apoyar y no pensar más.",
+      "foto": ""
+    },
+    {
+      "titulo": "Corona seca",
+      "descripcion": "Un círculo de materiales secos para la puerta o la pared.",
+      "foto": ""
+    },
+    {
+      "titulo": "Centro de mesa",
+      "descripcion": "Piezas bajas para mesas de casa, comidas largas y celebraciones.",
+      "foto": ""
+    },
+    {
+      "titulo": "Objeto floral",
+      "descripcion": "Esculturas pequeñas con flores y materiales de mi laboratorio.",
+      "foto": ""
+    }
+  ]
+}

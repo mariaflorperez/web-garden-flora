@@ -1,0 +1,264 @@
+# Configuración de Pages CMS para Garden Flora.
+# Define qué se puede editar desde https://app.pagescms.org y dónde se guardan las fotos.
+
+media:
+  input: assets/img      # carpeta del repositorio donde se guardan las fotos subidas
+  output: assets/img     # ruta que se escribe en los archivos de datos
+
+content:
+
+  - name: sitio
+    label: Portada y contacto
+    type: file
+    path: data/sitio.json
+    fields:
+      - name: inicio
+        label: Portada (Inicio)
+        type: object
+        fields:
+          - name: titulo
+            label: Título principal
+            type: string
+          - name: bajada
+            label: Texto debajo del título
+            type: text
+          - name: boton_principal
+            label: Texto del botón "Ver creaciones"
+            type: string
+          - name: boton_whatsapp
+            label: Texto del botón de WhatsApp
+            type: string
+          - name: sellos
+            label: Frases cortas (las tres líneas con hojita)
+            type: string
+            list: true
+          - name: foto
+            label: Foto de portada (vertical)
+            type: image
+            description: Si la dejás vacía se muestra una ilustración.
+      - name: whatsapp
+        label: WhatsApp (solo números, con código de país)
+        type: string
+        description: "Ejemplo: 5491122334455 (54 Argentina, 9 celular, código de área sin 0 y número sin 15)."
+      - name: whatsapp_visible
+        label: WhatsApp (cómo se muestra)
+        type: string
+        description: "Ejemplo: +54 9 11 2233-4455"
+      - name: instagram
+        label: Usuario de Instagram (sin @)
+        type: string
+      - name: email
+        label: Correo electrónico
+        type: string
+      - name: contacto
+        label: Sección Contacto
+        type: object
+        fields:
+          - name: titulo
+            label: Título
+            type: string
+          - name: intro
+            label: Texto de presentación
+            type: text
+
+  - name: soy-flor
+    label: Soy Flor
+    type: file
+    path: data/soy-flor.json
+    fields:
+      - name: titulo
+        label: Título
+        type: string
+      - name: foto
+        label: Tu foto (vertical)
+        type: image
+      - name: parrafos
+        label: Párrafos de tu historia
+        type: text
+        list: true
+      - name: cita
+        label: Frase destacada
+        type: string
+
+  - name: creaciones
+    label: Mis creaciones
+    type: file
+    path: data/creaciones.json
+    fields:
+      - name: titulo
+        label: Título de la sección
+        type: string
+      - name: intro
+        label: Texto de presentación
+        type: text
+      - name: texto_consulta
+        label: Texto del enlace de cada pieza
+        type: string
+      - name: piezas
+        label: Piezas
+        type: object
+        list: true
+        fields:
+          - name: titulo
+            label: Nombre de la pieza
+            type: string
+            required: true
+          - name: descripcion
+            label: Descripción corta
+            type: text
+          - name: foto
+            label: Foto
+            type: image
+            description: Si la dejás vacía se muestra una ilustración. Conviene que mida unos 1600 px de ancho.
+
+  - name: flores
+    label: Mis flores
+    type: file
+    path: data/flores.json
+    fields:
+      - name: titulo
+        label: Título de la sección
+        type: string
+      - name: intro
+        label: Texto de presentación
+        type: text
+      - name: frescas
+        label: Flores frescas
+        type: object
+        list: true
+        fields:
+          - name: nombre
+            label: Nombre
+            type: string
+            required: true
+          - name: latin
+            label: Nombre científico
+            type: string
+          - name: nota
+            label: Nota
+            type: text
+      - name: secas
+        label: Flores secas
+        type: object
+        list: true
+        fields:
+          - name: nombre
+            label: Nombre
+            type: string
+            required: true
+          - name: latin
+            label: Nombre científico
+            type: string
+          - name: nota
+            label: Nota
+            type: text
+      - name: curiosidades_titulo
+        label: Título del recuadro de curiosidades
+        type: string
+      - name: curiosidades
+        label: Curiosidades botánicas
+        type: text
+        list: true
+
+  - name: servicios
+    label: Servicios
+    type: file
+    path: data/servicios.json
+    fields:
+      - name: titulo
+        label: Título de la sección
+        type: string
+      - name: intro
+        label: Texto de presentación
+        type: text
+      - name: servicios
+        label: Servicios
+        type: object
+        list: true
+        fields:
+          - name: titulo
+            label: Nombre del servicio
+            type: string
+            required: true
+          - name: descripcion
+            label: Descripción
+            type: text
+      - name: proceso_titulo
+        label: Título de "Cómo trabajamos"
+        type: string
+      - name: pasos
+        label: Pasos (en orden)
+        type: object
+        list: true
+        fields:
+          - name: titulo
+            label: Paso
+            type: string
+            required: true
+          - name: descripcion
+            label: Explicación
+            type: text
+
+  - name: pausa
+    label: Pausa botánica
+    type: file
+    path: data/pausa.json
+    fields:
+      - name: titulo
+        label: Título de la sección
+        type: string
+      - name: intro
+        label: Texto de presentación
+        type: text
+      - name: boton
+        label: Texto del botón
+        type: string
+      - name: frases
+        label: Frases (se muestran de a una)
+        type: text
+        list: true
+      - name: practicas
+        label: Pequeñas prácticas
+        type: text
+        list: true
+
+  - name: laboratorio
+    label: Laboratorio Garden Flora (blog)
+    type: file
+    path: data/laboratorio.json
+    fields:
+      - name: titulo
+        label: Título de la sección
+        type: string
+      - name: intro
+        label: Texto de presentación
+        type: text
+      - name: texto_leer
+        label: Texto del enlace de cada entrada
+        type: string
+      - name: entradas
+        label: Entradas
+        type: object
+        list: true
+        fields:
+          - name: titulo
+            label: Título
+            type: string
+            required: true
+          - name: etiqueta
+            label: Etiqueta (Secado, Teñido, Materiales...)
+            type: string
+          - name: fecha
+            label: Fecha
+            type: date
+            description: Si todas las entradas tienen fecha, se ordenan de la más nueva a la más vieja.
+          - name: resumen
+            label: Resumen (aparece en la tarjeta)
+            type: text
+          - name: texto
+            label: Texto completo
+            type: text
+            description: Los párrafos se separan dejando una línea en blanco.
+          - name: foto
+            label: Foto
+            type: image

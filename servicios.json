@@ -1,0 +1,37 @@
+{
+  "titulo": "Servicios",
+  "intro": "Propuestas para particulares y empresas, desde un regalo hasta la ambientación completa de un espacio.",
+  "servicios": [
+    {
+      "titulo": "Ambientaciones",
+      "descripcion": "Flores y follaje para espacios: vidrieras, recepciones, rincones de casa."
+    },
+    {
+      "titulo": "Eventos",
+      "descripcion": "Arcos, mesas y ramos de ceremonia para casamientos, cumpleaños y encuentros."
+    },
+    {
+      "titulo": "Particulares",
+      "descripcion": "Regalos, ramos por encargo, homenajes y flores secas para conservar."
+    },
+    {
+      "titulo": "Empresas",
+      "descripcion": "Presencia floral para oficinas, locales y lanzamientos, en una ocasión o de forma recurrente."
+    }
+  ],
+  "proceso_titulo": "Cómo trabajamos",
+  "pasos": [
+    {
+      "titulo": "Charlamos.",
+      "descripcion": "Me contás qué querés, para cuándo y en qué lugar va."
+    },
+    {
+      "titulo": "Te mando una propuesta.",
+      "descripcion": "Con ideas, colores y presupuesto para que decidas tranquila o tranquilo."
+    },
+    {
+      "titulo": "Armo y entrego.",
+      "descripcion": "Preparo todo y lo dejo listo."
+    }
+  ]
+}

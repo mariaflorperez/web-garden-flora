@@ -1,0 +1,54 @@
+{
+  "titulo": "Mis flores",
+  "intro": "Las que uso, cómo se comportan y algunas cosas que fui aprendiendo al trabajarlas.",
+  "frescas": [
+    {
+      "nombre": "Peonía",
+      "latin": "Paeonia",
+      "nota": "Se compra en botón y se abre en el jarrón. Dura unos pocos días, por eso se espera tanto."
+    },
+    {
+      "nombre": "Ranúnculo",
+      "latin": "Ranunculus",
+      "nota": "Pétalos finísimos en capas, como de papel de seda."
+    },
+    {
+      "nombre": "Hortensia",
+      "latin": "Hydrangea",
+      "nota": "Toma agua también por los pétalos, así que agradece que la rocíes."
+    },
+    {
+      "nombre": "Eucalipto",
+      "latin": "Eucalyptus",
+      "nota": "Hojas redondas y aroma limpio; sirve de base en casi cualquier ramo."
+    }
+  ],
+  "secas": [
+    {
+      "nombre": "Lavanda",
+      "latin": "Lavandula",
+      "nota": "Se corta antes de que abran todas las flores y se seca colgada, a la sombra."
+    },
+    {
+      "nombre": "Nube",
+      "latin": "Gypsophila",
+      "nota": "Se seca boca abajo, en un lugar con aire, y queda liviana como una nube."
+    },
+    {
+      "nombre": "Cola de conejo",
+      "latin": "Lagurus ovatus",
+      "nota": "Pasto de espigas suaves que se seca sin perder la forma."
+    },
+    {
+      "nombre": "Statice",
+      "latin": "Limonium",
+      "nota": "Casi no hay que hacer nada: se seca sola y conserva el color."
+    }
+  ],
+  "curiosidades_titulo": "Curiosidades botánicas",
+  "curiosidades": [
+    "El color de una hortensia depende del suelo: más ácido tiende al azul, más alcalino al rosa.",
+    "La luz directa le saca el color a las flores secas; un rincón con poca luz las cuida más tiempo.",
+    "Cortar los tallos en diagonal y cambiar el agua seguido alarga la vida de las flores frescas."
+  ]
+}

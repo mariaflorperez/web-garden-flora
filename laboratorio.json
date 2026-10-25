@@ -1,0 +1,31 @@
+{
+  "titulo": "Laboratorio Garden Flora",
+  "intro": "Mi cuaderno de experimentos: técnicas de secado, teñido de flores, pruebas con materiales y todo lo que sale bien (y lo que no).",
+  "texto_leer": "Leer entrada",
+  "entradas": [
+    {
+      "titulo": "Secar hortensias sin que pierdan el color",
+      "etiqueta": "Secado",
+      "fecha": "",
+      "resumen": "Pruebas de secado al aire y con glicerina: qué cambió, qué no y cuánto tardó cada método.",
+      "texto": "Esta es una entrada de ejemplo: reemplazala por tu experimento real.\n\nAcá podés contar qué probaste, con qué materiales, cuánto tardó y qué aprendiste. Los párrafos se separan dejando una línea en blanco.",
+      "foto": ""
+    },
+    {
+      "titulo": "Teñir flores con tintas: primeras pruebas",
+      "etiqueta": "Teñido",
+      "fecha": "",
+      "resumen": "Qué pasa cuando una flor blanca toma color por el tallo, con qué tintas funcionó y con cuáles no.",
+      "texto": "Esta es una entrada de ejemplo: reemplazala por tu experimento real.\n\nAcá podés contar qué probaste, con qué materiales, cuánto tardó y qué aprendiste. Los párrafos se separan dejando una línea en blanco.",
+      "foto": ""
+    },
+    {
+      "titulo": "Alambre, cinta y papel para estructuras livianas",
+      "etiqueta": "Materiales",
+      "fecha": "",
+      "resumen": "Los materiales que uso para sostener una pieza sin que se vea cómo se sostiene.",
+      "texto": "Esta es una entrada de ejemplo: reemplazala por tu experimento real.\n\nAcá podés contar qué probaste, con qué materiales, cuánto tardó y qué aprendiste. Los párrafos se separan dejando una línea en blanco.",
+      "foto": ""
+    }
+  ]
+}
