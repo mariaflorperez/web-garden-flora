@@ -1,37 +1,31 @@
 {
   "titulo": "Mis creaciones",
-  "intro": "Ramos, composiciones y objetos florales. No vendo por catálogo: cada encargo se conversa y se arma para vos.",
+  "intro": "No vendo por catálogo: cada encargo se conversa y se arma especialmente para vos\n\nCada pieza es única, hecha a mano y pensada para disfrutar de la belleza de las flores más allá de una ocasión especial.",
   "texto_consulta": "Consultar por esta pieza",
   "piezas": [
     {
-      "titulo": "Ramo de estación",
-      "descripcion": "Flores frescas del momento, atadas a mano con cinta y papel.",
-      "foto": ""
+      "titulo": "Corona floral de flores secas",
+      "descripcion": "Esta corona está realizada a mano con una combinación de flores secas, follajes y elementos naturales, elegidos para crear una composición única, con diferentes texturas, formas y tonalidades.\n\nPersonalizá tu corona: podés consultar por los diámetros disponibles, los materiales y la paleta de colores que mejor acompañe tu espacio. También podés sumar detalles especiales, como moños, fantasías y otros elementos decorativos, para darle un estilo propio.\n\nUna pieza, distintas formas de disfrutarla. Podés colgarla en una puerta o una pared, o utilizarla como centro de mesa, acompañada de una vela u otro objeto decorativo."
     },
     {
-      "titulo": "Ramo seco",
-      "descripcion": "Espigas, pastos y flores secas que duran meses y cambian de color con el tiempo.",
-      "foto": ""
+      "titulo": "Topiario flores secas",
+      "descripcion": "Una pequeña escultura botánica que combina la belleza de las flores con la armonía de las formas.\n\nCada topiario está realizado artesanalmente con flores secas, follajes y elementos naturales, cuidadosamente seleccionados para crear una composición equilibrada, llena de texturas, detalles y matices.\n\nPersonalizá tu topiario: podés consultar por los tamaños disponibles, los materiales y la paleta de colores que mejor acompañe tu espacio. También podés incorporar detalles especiales, como moños, fantasías y otros elementos decorativos, para crear una pieza que refleje tu estilo.\n\nUn detalle natural para transformar tus espacios. Ideal para decorar mesas auxiliares, recibidores, estanterías, escritorios o rincones especiales de tu hogar. También es una linda opción para regalar y sorprender con un detalle floral diferente."
     },
     {
       "titulo": "Composición en caja",
-      "descripcion": "Flores y follaje armados en una base para apoyar y no pensar más.",
-      "foto": ""
+      "descripcion": "Flores y follaje armados en una base para apoyar y no pensar más."
     },
     {
       "titulo": "Corona seca",
-      "descripcion": "Un círculo de materiales secos para la puerta o la pared.",
-      "foto": ""
+      "descripcion": "Un círculo de materiales secos para la puerta o la pared."
     },
     {
       "titulo": "Centro de mesa",
-      "descripcion": "Piezas bajas para mesas de casa, comidas largas y celebraciones.",
-      "foto": ""
+      "descripcion": "Piezas bajas para mesas de casa, comidas largas y celebraciones."
     },
     {
       "titulo": "Objeto floral",
-      "descripcion": "Esculturas pequeñas con flores y materiales de mi laboratorio.",
-      "foto": ""
+      "descripcion": "Esculturas pequeñas con flores y materiales de mi laboratorio."
     }
   ]
 }
